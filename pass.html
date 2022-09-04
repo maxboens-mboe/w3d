@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Laura & Max Wedding</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/png" href="images/favicon.png" />
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/themify-icons.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="oliven-logo" style="margin-top:20px">
+        <a href="pass.html">
+            <h1>Laura <small>&</small> Max</span>
+            <h6>14.07.2023</h6>
+        </a>
+    </div>
+    <div id="oliven-page" style="margin-top:20px;">
+        
+        <form>
+            <label for="pswd">Enter access code: </label>
+            <input type="password" id="pswd" style="width:300px">
+            <input type="button" value="Submit" onclick="checkPswd();" />
+        </form>
+    </div>
+    
+<!--Function to check password the already set password is admin-->
+<script type="text/javascript">
+    function checkPswd() {
+        var confirmPassword = "MAX-LAURA-JULY";
+        var password = document.getElementById("pswd").value;
+        if (password == confirmPassword) {
+             window.location="wedding-it/index.html";
+        }
+        else{
+            alert("Passwords do not match.");
+        }
+    }
+</script>
+</body>
+</html>

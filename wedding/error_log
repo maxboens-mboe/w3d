@@ -1,0 +1,4 @@
+[21-Jun-2022 19:56:21 UTC] PHP Parse error:  syntax error, unexpected '$email_subject' (T_VARIABLE) in /home/eskdeta2/meneerenmevrouw.boens.org/wedding/mail.php on line 8
+[21-Jun-2022 19:56:59 UTC] PHP Parse error:  syntax error, unexpected '$email_subject' (T_VARIABLE) in /home/eskdeta2/meneerenmevrouw.boens.org/wedding/mail.php on line 8
+[21-Jun-2022 19:57:08 UTC] PHP Parse error:  syntax error, unexpected '$email_subject' (T_VARIABLE) in /home/eskdeta2/meneerenmevrouw.boens.org/wedding/mail.php on line 8
+[21-Jun-2022 20:02:06 UTC] PHP Parse error:  syntax error, unexpected '$email_subject' (T_VARIABLE) in /home/eskdeta2/meneerenmevrouw.boens.org/wedding/mail.php on line 8
